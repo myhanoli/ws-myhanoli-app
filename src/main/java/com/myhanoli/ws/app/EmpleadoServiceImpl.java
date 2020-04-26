@@ -4,8 +4,6 @@ import javax.jws.WebService;
 import com.myhanoli.ws.app.response.EmpleadoResponse;
 
 
-
-
 @WebService(endpointInterface="com.myhanoli.ws.app.EmpleadoService")
 public class EmpleadoServiceImpl implements EmpleadoService {
 	
@@ -19,9 +17,6 @@ public class EmpleadoServiceImpl implements EmpleadoService {
 		/*String resp = (idEmpleado == 10 )? "Se encontro empleado":"Error";
 		
 		return resp;*/
-		
-		
-		
 		    
 		}
 	

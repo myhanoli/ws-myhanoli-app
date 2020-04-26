@@ -16,8 +16,5 @@ public interface EmpleadoService {
 	
 	@WebMethod(operationName="getEmpleado")
 	@WebResult(name="ResultadoOperacion") EmpleadoResponse getEmpleadoById(@WebParam(name="idEmpleado") int idEmpleado);
-
-	
-	
 	
 }

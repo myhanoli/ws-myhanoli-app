@@ -4,11 +4,25 @@
   <artifactId>ws-myhanoli-app</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+  <java.ee.app.version>8.0</java.ee.app.version>
+  <hibernate.validator.version>6.0.13.Final</hibernate.validator.version>
+  </properties>
+  
+  
   <dependencies>
+  
+  <dependency>
+  <groupId>org.hibernate</groupId>
+  <artifactId>hibernate-validator</artifactId>
+  <version>${hibernate.validator.version}</version>
+  <scope>provided</scope>
+  </dependency>
+  
   <dependency>
   <groupId>javax</groupId>
   <artifactId>javaee-api</artifactId>
-  <version>8.0</version>
+  <version>${java.ee.app.version}</version>
   <scope>provided</scope>
   </dependency>
   </dependencies>
